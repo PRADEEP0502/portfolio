@@ -1,4 +1,7 @@
 import { useState, useEffect } from 'react';
+import pradeepImg from '../assets/images/pradeep.jpeg';
+import dhivinImg from '../assets/images/dhivin.jpeg';
+import ebiImg from '../assets/images/ebi.jpeg';
 
 const Team = () => {
   const [hoveredMember, setHoveredMember] = useState(null);
@@ -10,7 +13,7 @@ const Team = () => {
       role: "Full Stack Developer",
       bio: "Main brain of the team. Logic strong. Builds website & mobile app core logic, backend APIs, database design and integration.",
       skills: ["React", "Node.js", "Backend APIs", "Database Design"],
-      image: "/src/assets/images/pradeep.jpeg",
+      image: pradeepImg,
       gradient: "linear-gradient(135deg, #8b5cf6, #3b82f6)"
     },
     {
@@ -18,7 +21,7 @@ const Team = () => {
       role: "UI / UX Designer",
       bio: "Design expert creating stunning wireframes, screen layouts and user-friendly flows. Ensures design consistency across mobile and desktop.",
       skills: ["Wireframing", "UI Design", "Prototyping", "Responsive Design"],
-      image: "/src/assets/images/dhivin.jpeg",
+      image: dhivinImg,
       gradient: "linear-gradient(135deg, #ec4899, #f093fb)"
     },
     {
@@ -26,7 +29,7 @@ const Team = () => {
       role: "DevOps & Deployment Engineer",
       bio: "Ensures projects go LIVE successfully. Handles cloud deployment, CI/CD pipelines, server configuration and app monitoring.",
       skills: ["Cloud Deployment", "CI/CD", "Server Management", "Monitoring"],
-      image: "/src/assets/images/ebi.jpeg",
+      image: ebiImg,
       gradient: "linear-gradient(135deg, #06b6d4, #10b981)"
     }
   ];
@@ -485,4 +488,6 @@ const styles = {
 };
 
 export default Team;
+
+
 
