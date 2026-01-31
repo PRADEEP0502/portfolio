@@ -10,7 +10,7 @@ const Contact = () => {
   }, []);
 
   const handleWhatsApp = () => {
-    window.open("https://wa.me/919876543210", "_blank");
+    window.open("https://wa.me/916380279702", "_blank");
   };
 
   const handleEmail = () => {
