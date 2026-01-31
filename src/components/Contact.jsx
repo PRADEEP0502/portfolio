@@ -77,7 +77,7 @@ const Contact = () => {
         </svg>
       ),
       title: "Location",
-      value: "Chennai, Tamil Nadu, India",
+      value: "Tirupur, Tamil Nadu, India",
       description: "Visit our office",
       color: "#f59e0b",
       action: () => {}
