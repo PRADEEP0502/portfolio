@@ -39,7 +39,7 @@ const Contact = () => {
         </svg>
       ),
       title: "WhatsApp",
-      value: "+91 98765 43210",
+      value: "+91 6380279702",
       description: "Chat with us instantly",
       color: "#25D366",
       action: handleWhatsApp
@@ -745,4 +745,6 @@ const styles = {
 };
 
 export default Contact;
+
+
 
